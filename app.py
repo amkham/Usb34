@@ -23,10 +23,6 @@ def new_product():
     return render_template('new_product/new.html')
 
 
-@app.route('/add', methods=['GET', 'POST'])
-def add_in_basket():
-    print('work')
-
 
 if __name__ == '__main__':
     app.run()
