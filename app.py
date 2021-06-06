@@ -20,10 +20,9 @@ def price():
 
 
 @app.route('/new')
-def price():
+def new_product():
     result = query.select_all()
-    print(result)
-    return render_template('price_list/price.html', result=result)
+    return render_template('new_product/new.html')
 
 
 if __name__ == '__main__':
