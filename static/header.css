@@ -1,0 +1,72 @@
+.test
+{
+    color: blue;
+}
+
+
+
+/*////////////////////КОРЗИНА//////////////////*/
+.basket-in
+{
+    position: relative;
+}
+.basket-num
+{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: -5px;
+    background: #bf2c2c;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+
+
+}
+#basket-count
+{
+   align-items: center;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+/*////////////////////HEADER//////////////////*/
+
+.header-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*////////////////////LOGO//////////////////*/
+
+
+.dropdown
+{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .dropdown
+{
+    display: flex;
+}
+    .logo
+    {
+        display: none;
+    }
+}

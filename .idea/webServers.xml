@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c8e9ac59-3afe-431c-abc9-2b5a49c54cfd" name="server" url="http://gelash7w.beget.tech/">
+        <fileTransfer rootFolder="/home/g/gelash7w/usb34/" accessType="SFTP" host="gelash7w.beget.tech" port="22" sshConfigId="4f603404-9a27-4edc-ac9f-5217ae63ea64" sshConfig="gelash7w@gelash7w.beget.tech:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
