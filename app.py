@@ -8,7 +8,6 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/index')
 def hello_world():
-
     return render_template('index.html')
 
 
@@ -21,8 +20,12 @@ def price():
 
 @app.route('/new')
 def new_product():
-    result = query.select_all()
     return render_template('new_product/new.html')
+
+
+@app.route('/add', methods=['GET', 'POST'])
+def add_in_basket():
+    print('work')
 
 
 if __name__ == '__main__':

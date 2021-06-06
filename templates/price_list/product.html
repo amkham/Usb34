@@ -1,9 +1,9 @@
-<div class="card m-3 border-0" id = "{{ item['id'] }}" style="width: 18rem;">
+<div class="card m-3 border-0" id = "{{ item['id'] }}"  style="width: 18rem;">
      <img src="/static/img/{{ item['img'] }}" class="img-fluid rounded mx-auto d-block" alt="...">
   <div class="card-body">
     <h5 class="card-title">{{ item['name'] }}</h5>
       <h4 class="text-end">{{ item['price'] }} руб.</h4>
        <p class="card-text">{{ item['description'] }}</p>
-    <a href="#" class="btn btn-primary card-btn" onclick="script()">BUY</a>
+    <a href="add" class="btn btn-primary card-btn" onclick="script()">BUY</a>
   </div>
 </div>
