@@ -3,6 +3,7 @@ from mysql.connector import Error
 from DB import config
 
 
+
 def __connect():
     """ Connect to MySQL database """
     try:
