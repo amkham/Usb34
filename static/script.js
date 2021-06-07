@@ -1,7 +1,7 @@
 let basket_count = 0;
-async function script(id) {
+async function script(id, price) {
 
-    let product = {'id': id}
+    let product = {'id': id, 'price':price}
 
     let elem = document.getElementById('basket-count');
     document.getElementById('basket-circle').style.display = 'flex';

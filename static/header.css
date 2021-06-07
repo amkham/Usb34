@@ -55,13 +55,13 @@
 /*////////////////////LOGO//////////////////*/
 
 
-.dropdown
+.mobile-menu
 {
     display: none;
 }
 
 @media (max-width: 768px) {
-    .dropdown
+    .mobile-menu
 {
     display: flex;
 }

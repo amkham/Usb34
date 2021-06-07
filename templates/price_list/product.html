@@ -4,6 +4,6 @@
     <h5 class="card-title">{{ item['name'] }}</h5>
       <h4 class="text-end">{{ item['price'] }} руб.</h4>
        <p class="card-text">{{ item['description'] }}</p>
-    <button  class="btn btn-primary card-btn" onclick="script({{ item['id'] }})">BUY</button>
+    <button  class="btn btn-primary card-btn" onclick="script({{ item['id'] }},{{ item['price'] }})">BUY</button>
   </div>
 </div>
