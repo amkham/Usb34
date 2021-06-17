@@ -1,0 +1,15 @@
+.basket-item-img
+{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.basket-item-card
+{
+    height: 300px;
+    overflow-y: hidden;
+    margin: 10px;
+}

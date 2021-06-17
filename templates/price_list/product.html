@@ -4,6 +4,8 @@
     <h5 class="card-title">{{ item['name'] }}</h5>
       <h4 class="text-end">{{ item['price'] }} руб.</h4>
        <p class="card-text">{{ item['description'] }}</p>
-    <button  class="btn btn-primary card-btn" onclick="script({{ item['id'] }},{{ item['price'] }})">BUY</button>
+    <button  class="btn btn-primary card-btn" onclick="set_item_in_basket(); post_basketItem({{ item['id'] }})">
+        BUY
+    </button>
   </div>
 </div>

@@ -20,7 +20,7 @@ def select_all():
         con = __connect()
         cursor = con.cursor()
         cursor.execute("SELECT * FROM product_table")
-        print('запрос')
+        print('запрос к БД')
         rows = cursor.fetchall()
         result = []
 
@@ -39,16 +39,14 @@ def select_all():
         print(e)
 
 
-def select_by(target, value):
+def select_by_id(value):
     try:
         con = __connect()
         cursor = con.cursor()
-        cursor.execute("SELECT * FROM product_table WHERE {0} == '{1}'".format(target, value))
+        cursor.execute("SELECT * FROM product_table WHERE id = '{}'".format(value))
 
         rows = cursor.fetchall()
-
-        result = []
-
+        product = {}
         for row in rows:
             product = {'id': row[0],
                        'name': row[1],
@@ -56,8 +54,7 @@ def select_by(target, value):
                        'price': row[3],
                        'img': row[4]}
 
-            result.append(product)
-        return result
+        return product
 
     except Error as e:
         print(e)

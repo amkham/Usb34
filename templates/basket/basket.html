@@ -2,11 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title></title>
+
+
 </head>
 <body>
 {% include 'header/header.html' %}
 
-<p>work</p>
+{% for item in basket_list %}
+{% include 'basket/basket_item.html' %}
+{% endfor %}
+
+
+
 </body>
 </html>

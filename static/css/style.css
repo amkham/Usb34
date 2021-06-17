@@ -3,6 +3,10 @@ body
     min-width: 350px;
 }
 
+p{
+    margin: 0;
+}
+
 .container {
   max-width: 1200px;
 }
@@ -28,3 +32,4 @@ body
 
 
       }
+

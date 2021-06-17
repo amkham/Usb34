@@ -1,0 +1,48 @@
+.block-1, .block-2, .block-3, .block-4,.block-5,.block-6
+{
+    border-radius: 21px 21px 0 0;
+    width: 80%;
+    height: 300px;
+    content: " ";
+    background-size: cover;
+
+}
+
+.block-1
+{
+    background: url("/static/img/index/block1.jpg") center no-repeat;
+}
+
+.block-2
+{
+    background: url("/static/img/index/block2.jpg") center no-repeat;
+}
+
+.block-3
+{
+    background: url("/static/img/index/block3.jpg") center no-repeat;
+}
+
+.block-4
+{
+    background: url("/static/img/index/block4.jpg") center no-repeat;
+}
+
+
+.block-5
+{
+    background: url("/static/img/index/block5.jpg") center no-repeat;
+
+}
+.block-6
+{
+    background: url("/static/img/index/block6.jpg") center no-repeat;
+
+}
+
+.main-img
+{
+    content: " ";
+    background: url("/static/img/index/main.jpg") center no-repeat;
+    background-size: cover;
+}
