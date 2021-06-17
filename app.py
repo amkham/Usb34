@@ -39,7 +39,14 @@ def basket():
         basket_list.append(query.select_by_id(req['id']))
 
     if len(basket_list):
-        return render_template('basket/basket.html', basket_count=len(basket_list), basket_list=basket_list)
+        total = 0
+        for i in basket_list:
+            total += i['price']
+
+        return render_template('basket/basket.html',
+                               basket_count=len(basket_list),
+                               basket_list=basket_list,
+                               total=total)
     else:
         return render_template('basket/basket_empty.html')
 

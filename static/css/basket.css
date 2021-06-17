@@ -1,15 +1,48 @@
-.basket-item-img
+.basket-container
 {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    display: flex;
+    flex-wrap: wrap-reverse;
 }
 
-.basket-item-card
+.basket-list
 {
-    height: 300px;
-    overflow-y: hidden;
+
+}
+
+.basket-total
+{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.basket-item-card {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 540px;
     margin: 10px;
+}
+
+.basket-card-img {
+    width: 40%;
+    height: auto;
+}
+
+.basket-card-body
+{
+    width: 60%;
+    margin: 10px;
+
+}
+
+.buy-form {
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+
 }

@@ -1,19 +1,16 @@
-<div class="card mb-3 basket-item-card" style="max-width: 540px;">
-    <div class="row g-0">
-        <div class="col-md-4">
-            <img class="basket-item-img" src="/static/img/{{ item['img'] }}" alt="...">
-        </div>
-        <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title">{{ item['name'] }}</h5>
-                <p class="card-text">{{ item['description'] }}</p>
+<div class=" basket-item-card">
 
-                <div class="d-flex align-items-center m-2">
-                <button class="btn btn-danger m-2">-</button>
-                <p class="m-2">0</p>
-                <button class="btn btn-primary m-2">+</button>
-                </div>
-            </div>
+    <div class="basket-card-img">
+        <img class="img-fluid" src="/static/img/{{ item['img'] }}" alt="...">
+    </div>
+    <div class="basket-card-body">
+        <h5 class="card-title">{{ item['name'] }}</h5>
+        <p class="card-text"><small class="text-muted">{{ item['price'] }} руб.</small></p>
+        <div class="d-flex align-items-center m-2">
+            <button class="btn btn-danger m-2">-</button>
+            <p class="m-2">0</p>
+            <button class="btn btn-primary m-2">+</button>
         </div>
+
     </div>
 </div>

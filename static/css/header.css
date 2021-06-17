@@ -30,26 +30,6 @@
     font-size: 12px;
 }
 
-.basket-card
-{
-    height: 120px;
-    background: #333333;
-}
-
-.basket-item-img
-{
-    width: 50px;
-    height: auto;
-    margin: 5px;
-    background-size: cover;
-    background: #bf2c2c no-repeat;
-    border-radius: 15%;
-}
-.basket-container
-{
-    max-height: 250px;
-    overflow-y: scroll;
-}
 /*////////////////////HEADER//////////////////*/
 
 .header-container

@@ -1,35 +1,34 @@
-body
-{
+body {
     min-width: 350px;
 }
 
-p{
+p {
     margin: 0;
 }
 
 .container {
-  max-width: 1200px;
+    max-width: 1200px;
+    padding: 0 10px;
 }
 
-.bg-orange
-{
-    background: #bf460a;
+.bg-orange {
+    background: #53220c;
 }
 
 
- .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
 
 
-      }
+}
 

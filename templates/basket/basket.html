@@ -9,10 +9,19 @@
 <body>
 {% include 'header/header.html' %}
 
-{% for item in basket_list %}
-{% include 'basket/basket_item.html' %}
-{% endfor %}
+<section class="container">
+    <div class="basket-container">
+        <div class="basket-list">
+            {% for item in basket_list %}
+                {% include 'basket/basket_item.html' %}
+            {% endfor %}
+        </div>
+        <div class="basket-total">
+            <h1 class="text-dark">Итого: {{ total }}</h1>
+        </div>
+    </div>
 
+</section>
 
 
 </body>
